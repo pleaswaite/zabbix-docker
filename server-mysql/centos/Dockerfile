@@ -136,7 +136,7 @@ RUN yum --quiet makecache && \
     rm -rf /root/.pki && \
     rm -rf /root/.subversion
 
-EXPOSE 10051/TCP
+#EXPOSE 10051/TCP
 
 WORKDIR /var/lib/zabbix
 
