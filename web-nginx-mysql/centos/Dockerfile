@@ -86,7 +86,7 @@ RUN yum --quiet makecache && \
     rm -rf /root/.pki && \
     rm -rf /root/.subversion
 
-EXPOSE 80/TCP 443/TCP
+EXPOSE 80 443
 WORKDIR /usr/share/zabbix
 
 VOLUME ["/etc/ssl/nginx"]
